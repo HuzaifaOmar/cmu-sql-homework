@@ -1,0 +1,11 @@
+-- A medal is credited to a coach if it shares the same country and discipline with the coach
+-- then I should join:
+-- 1. coaches with their countries
+-- 2. countries with medals
+-- 3. #2 with disciplines
+
+-- we have CREATE INDEX ix_medals_winner_code ON medals(winner_code);
+-- so we can do the following:
+-- for each medal get the winner (athlete or team)
+-- then get the country 
+-- then get the coaches who are from the same country and have the same discipline as this medal

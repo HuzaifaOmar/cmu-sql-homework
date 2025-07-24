@@ -1,0 +1,1 @@
+SELECT * FROM venues LIMIT 10;
